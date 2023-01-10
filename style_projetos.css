@@ -1,0 +1,100 @@
+#background_projetos{
+    height: 1700px;
+    background: linear-gradient(180deg, rgba(255,255,255,1));
+    display: none;
+}
+
+
+#Titulo_Projetos{
+
+    font-size: 60px;
+    text-align: center;
+    color: #00467f;
+    font-family: Font_01;
+    margin-bottom: 40px;
+}
+
+.espaco_projeto{
+    height: 350px;
+    justify-content: center;
+}
+
+.project_image{
+
+    float: left;
+    margin-top: 80px;
+    margin-left: 100px;
+    height: 200px;
+    border-radius: 100%;
+    border: 3px solid #0a365a;
+}
+
+.project_title{
+
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+    font-size: 30px;
+    color: #00467f;
+    font-family: Font_01;
+}
+
+.project_about{
+
+    float: left;
+    margin-top: 0px;
+    margin-left: 30px;
+    
+    font-size: 20px;
+    color: #00467f;
+    font-family: Font_01;
+}
+
+#return_icon{
+
+    cursor: pointer;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #0a365a;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+#img_01{
+
+    background-image: url(img/Woman\ reading.gif);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: bottom;
+    background-color: #515151;
+}
+
+#img_02{
+
+    background-image: url(img/GGHARDWARE.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #000;
+    background-position: center;
+}
+
+#img_03{
+
+    background-image: url(img/MAONARODA.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #333333;
+    background-position:left;
+    margin-top: 90px;
+}
+
+#img_04{
+
+    background-image: url(img/IanesTech.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #333333;
+    background-position:left;
+    margin-top: 90px;
+}

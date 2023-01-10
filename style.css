@@ -1,0 +1,349 @@
+
+/* BACKGROUND GRADIENTE E WAVES*/
+
+
+#background{
+    padding-top: 30px;
+    height: 650px;
+    background: linear-gradient(180deg, #a5cc82 26%, #00467f 100%);
+
+}
+
+#wave_bottom{
+
+    float: left;
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(img/waves/layered-waves-haikei.svg);
+    height: 230px;
+    
+}
+/* BACKGROUND GRADIENTE E WAVES*/
+
+
+
+
+
+/* Apresentação */
+
+    #welcome{
+        
+        margin-left: 30px;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 500;
+        height: 40px;
+        
+    }
+
+    #nome{
+        margin-left: 30px;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 200;
+        height: 40px;
+        }
+
+/* Apresentação */
+
+
+
+
+
+
+
+
+
+/* Competencias */
+#part_02{
+
+    
+    float: left;
+    height: 80px;
+    display: flex;
+    align-items: left;
+}
+
+.wrapper{
+    float: left;
+    display: inline-flex;
+}
+.wrapper .texto-base{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 30px;
+    float: left;
+    font-weight: 500;
+}
+.wrapper .texto-secundario{
+    margin-top: 10px;
+    height: 42px;
+    float: left;
+    line-height: 50px;
+    overflow: hidden; 
+    color: rgb(218, 255, 240);
+    
+    
+}
+
+.texto-secundario li{
+    
+    list-style: none;
+    font-size: 37px;
+    font-weight: 700;
+    position: relative;
+    top: 0;
+    animation: slide 7s steps(7) infinite;
+}
+@keyframes slide {
+    100%{
+        top: -360px;
+    }
+}
+
+.texto-secundario li span{
+    position: relative;
+}
+
+.texto-secundario li span::after{
+    
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #A5CC82;
+    border-left: 2px solid rgb(255, 255, 255);
+    animation: typing 1s steps(11) infinite;
+}
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 20px;
+    }
+}
+
+/* Competencias */
+
+
+
+
+
+
+/* Informação */
+
+#part_03{
+    
+    float: left;
+    height: 159px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+    #informativo{
+        color: #fff;
+        font-size: 20px;
+    }
+
+/* Informação */
+
+
+/* Botoões */
+
+#part_04{
+
+    height: 45px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+    
+
+}
+#btn_sobremim{ 
+    float: left;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+
+#btn_projetos{
+    margin-left: 15px;
+    float: left; 
+    border: 2px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 319px) {
+    *{
+      display: none;
+    }
+
+    
+        
+}
+
+@media (min-width: 320px) and (max-width: 428px) {
+
+
+    #background{
+        height: 928px;
+    }
+
+    
+    #background{
+
+        background: linear-gradient(180deg, #a5cc82 46%, #00467f 80%);
+
+    }
+    #welcome{
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 500;
+        height: 40px;
+        text-align: center;
+        
+    }
+
+    #nome{
+        margin-top: 40px;
+        margin-left: 10px;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 200;
+        height: 60px;
+        text-align: center;
+        }
+
+
+    .wrapper .texto-base{
+        margin-top: 30px;
+        margin-left: 5px;
+        color: #fff;
+        font-size: 25px;
+        float: left;
+        font-weight: 500;
+        text-align: center;
+    }
+    .wrapper .texto-secundario{
+        
+        margin-top: 30px;
+        margin-left: 50px;
+        height: 44px;
+        float: left;
+        line-height: 50px;
+        overflow: hidden;
+        text-align: center;
+        
+        
+    }
+
+    .wrapper{
+
+        display: block;
+
+    }
+
+    #part_03{
+        float: left;
+        height: 308px;
+        margin-top: 180px;
+    
+    }
+        #informativo{
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            margin-left: 0px;
+        }
+
+        #part_04{
+            float: left;
+            margin-top: 30px;
+            margin-left: 0px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        #btn_sobremim{ 
+            float: right;
+            margin-left: 0px;
+            cursor: pointer;
+            border: 2px solid #fff;
+        }
+
+
+        #btn_projetos{
+            margin-left: 0px;
+            border: 2px solid #fff;
+        }
+        
+
+        #wave_bottom{
+
+            float: none;
+            background-position: bottom;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-image: url(img/waves/layered-waves-haikei.svg);
+            height: 281px;
+            margin-top: 530px;
+            
+        }
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: Font_01;
+    src: url(fonts/Fluff.ttf);
+    }
+    
+    ::selection {
+    color: rgb(85, 85, 85);
+    background: rgb(255, 255, 255);
+    }
+    
+    
+    ::-webkit-scrollbar {
+    width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background: #ffffff;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background: rgb(175, 253, 186);
+    border-radius: 20px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: rgb(101, 172, 127);
+    }
